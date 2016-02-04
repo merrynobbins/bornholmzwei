@@ -37,6 +37,8 @@
         /* eslint "no-unused-vars": [2, {"args": "none"}] */
 
         scope.content = attrs.content;
+        scope.anchor = attrs.anchor;
+        scope.target = attrs.target;
       }
     };
   }

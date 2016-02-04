@@ -24,7 +24,7 @@
   function teaserAnchor() {
     return {
       restrict: 'EA',
-      scope: false,
+      scope: {},
       templateUrl: 'directives/teaser-anchor/teaser-anchor-directive.tpl.html',
       replace: true,
       controllerAs: 'teaserAnchor',
@@ -36,9 +36,10 @@
         /* jshint unused:false */
         /* eslint "no-unused-vars": [2, {"args": "none"}] */
 
+        console.log(attrs);
+
         scope.content = attrs.content;
         scope.anchor = attrs.anchor;
-        scope.target = attrs.target;
       }
     };
   }

@@ -24,7 +24,7 @@
   function pageSlogan() {
     return {
       restrict: 'EA',
-      scope: false,
+      scope: {},
       templateUrl: 'directives/page-slogan/page-slogan-directive.tpl.html',
       replace: true,
       controllerAs: 'pageSlogan',

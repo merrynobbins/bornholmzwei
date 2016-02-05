@@ -1,0 +1,12 @@
+@import '../../constants';
+
+.page-logo {
+  width: 120px;
+  height: 118px;
+  display: inline-block;
+  position: absolute;
+  background: url("#{$path--images}header.png") scroll no-repeat 0 0 transparent;
+  background-size: contain;
+  right: 0;
+  top: 0;
+}

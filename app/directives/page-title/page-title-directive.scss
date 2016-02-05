@@ -5,3 +5,19 @@
   font-weight: 300;
   line-height: 1;
 }
+
+// small devices
+@media screen and (max-width: $breakpoint--small__max) {
+  .page-title {
+    margin-top: 139px;
+    font-size: 35px;
+    text-align: center;
+  }
+}
+
+// medium devices
+@media screen and (min-width: $breakpoint--medium__min) and (max-width: $breakpoint--medium__max) {
+  .page-title {
+    font-size: 45px;
+  }
+}

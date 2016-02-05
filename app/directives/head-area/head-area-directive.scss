@@ -1,4 +1,34 @@
+@import '../../constants';
+
 .head-area {
   position: relative;
-  margin: 0 70px;
+  margin: 30px 70px;
+  overflow: hidden;
+
+  .page-slogan {
+    margin-top: 15px;
+  }
+}
+
+// small devices
+@media screen and (max-width: $breakpoint--medium__max) {
+  .head-area {
+    margin: 0;
+
+    .page-slogan {
+      margin-top: 5px;
+    }
+  }
+}
+
+// medium devices
+@media screen and (min-width: $breakpoint--medium__min) and (max-width: $breakpoint--medium__max) {
+  .head-area {
+    margin: 0;
+    padding: 12px 0 30px;
+
+    .page-slogan {
+      margin-top: 5px;
+    }
+  }
 }

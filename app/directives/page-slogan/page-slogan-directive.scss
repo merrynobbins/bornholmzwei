@@ -8,3 +8,20 @@
   letter-spacing: 9px;
   color: $color--ci;
 }
+
+// small devices
+@media screen and (max-width: $breakpoint--small__max) {
+  .page-slogan {
+    font-size: 35px;
+    letter-spacing: 6px;
+    text-align: center;
+  }
+}
+
+// medium devices
+@media screen and (min-width: $breakpoint--medium__min) and (max-width: $breakpoint--medium__max) {
+  .page-slogan {
+    font-size: 45px;
+    letter-spacing: 8px;
+  }
+}

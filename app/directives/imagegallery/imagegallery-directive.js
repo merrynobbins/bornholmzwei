@@ -35,6 +35,16 @@
       link: function (scope, element, attrs) {
         /* jshint unused:false */
         /* eslint "no-unused-vars": [2, {"args": "none"}] */
+
+        angular.element(element).slick({
+          dots: true,
+          infinite: true,
+          speed: 300,
+          slidesToShow: 4,
+          slidesToScroll: 1,
+          arrows: false,
+          variableWidth: true
+        });
       }
     };
   }

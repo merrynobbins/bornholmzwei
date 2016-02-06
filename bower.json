@@ -6,7 +6,8 @@
     "angular-animate": "~1.4.*",
     "angular-foundation": "~0.3.0",
     "angular-ui-router": "~0.2.10",
-    "foundation": "~5.4.0"
+    "foundation": "~5.4.0",
+    "angular-slick": "^0.2.1"
   },
   "devDependencies": {
     "angular-mocks": "~1.4.*"
@@ -15,5 +16,8 @@
     "modernizr": {
       "main": "modernizr.js"
     }
+  },
+  "resolutions": {
+    "angular": "~1.4.*"
   }
 }

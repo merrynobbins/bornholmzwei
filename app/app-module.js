@@ -9,6 +9,7 @@
   angular
     .module('bornholmZwei', [
       'ui.router',
+      'slick',
       'mm.foundation',
       'home',
       'fruechteFuerFluechtlinge',

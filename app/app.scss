@@ -10,6 +10,11 @@
 body {
   font-family: 'Oxygen', sans-serif;
   color: $color--copytext;
+  background: url("#{$path--images}holz.jpg") fixed no-repeat 0 0 transparent;
+}
+
+.row {
+  background-color: $color--white;
 }
 
 .copytext ~ .copytext {

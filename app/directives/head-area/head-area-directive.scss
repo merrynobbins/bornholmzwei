@@ -8,6 +8,18 @@
   .page-slogan {
     margin-top: 15px;
   }
+
+  &:hover,
+  &:active,
+  &:focus {
+    .page-slogan {
+      color: $color--ci__hover;
+    }
+
+    .page-title {
+      color: $color--copytext__hover;
+    }
+  }
 }
 
 .head-area__fixed {

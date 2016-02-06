@@ -27,6 +27,14 @@ a {
   background-color: $color--white;
 }
 
+.row ~ .row {
+  margin-top: 30px;
+}
+
+.page-headline + .row {
+  margin-top: 30px;
+}
+
 .copytext {
   display: inline-block;
   text-align: justify;
@@ -44,6 +52,10 @@ a {
   color: $color--ci;
   font-style: italic;
   font-weight: 700;
+}
+
+.copytext__small {
+  font-size: 14px;
 }
 
 .navigation {

@@ -1,0 +1,27 @@
+@import "../../constants";
+
+// small devices
+@media screen and (max-width: $breakpoint--small__max) {
+  .module--geschichte-und-geschichten {
+    .row ~ .row {
+      > .columns {
+        &:first-child {
+          > .copytext {
+            border-top: 1px solid $color--ci;
+            padding-top: 20px;
+          }
+        }
+      }
+    }
+
+    .row {
+      > .columns {
+        &:last-child {
+          > img {
+            margin-top: 10px;
+          }
+        }
+      }
+    }
+  }
+}

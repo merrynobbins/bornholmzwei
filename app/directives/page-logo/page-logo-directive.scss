@@ -12,15 +12,14 @@
 }
 
 // small devices
-@media screen and (max-width: $breakpoint--medium__max) {
+@media screen and (max-width: $breakpoint--small__max) {
   .page-logo {
-
+    display: none;
   }
 }
 
 // medium devices
 @media screen and (min-width: $breakpoint--medium__min) and (max-width: $breakpoint--medium__max) {
   .page-logo {
-
   }
 }

@@ -10,13 +10,39 @@
   }
 }
 
+.head-area__fixed {
+  position: fixed;
+  background-color: $color--white;
+  width: 804px;
+  margin: 0;
+  padding: 30px 70px 40px;
+
+  .page-logo {
+    top: 20px;
+    right: 50px;
+  }
+}
+
 // small devices
-@media screen and (max-width: $breakpoint--medium__max) {
+@media screen and (max-width: $breakpoint--small__max) {
   .head-area {
     margin: 0 0 40px;
 
     .page-slogan {
       margin-top: 5px;
+    }
+  }
+
+  .head-area__fixed {
+    position: static;
+    background-color: transparent;
+    width: 100%;
+    margin: 0 0 40px;
+    padding: 0;
+
+    .page-logo {
+      right: 0;
+      top: -7px;
     }
   }
 }
@@ -29,6 +55,19 @@
 
     .page-slogan {
       margin-top: 5px;
+    }
+  }
+
+  .head-area__fixed {
+    position: static;
+    background-color: transparent;
+    width: 100%;
+    margin: 0;
+    padding: 12px 0 30px;
+
+    .page-logo {
+      right: 0;
+      top: -7px;
     }
   }
 }

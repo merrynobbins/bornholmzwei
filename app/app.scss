@@ -44,3 +44,7 @@ body {
 .teaser-image {
   margin-top: 20px;
 }
+
+.teaser-image ~ .copytext {
+  margin-top: 25px;
+}

@@ -50,3 +50,21 @@ body {
 .teaser-image ~ .copytext {
   margin-top: 25px;
 }
+
+.content-area__after-fixed-header {
+  margin-top: 185px;
+}
+
+// small devices
+@media screen and (max-width: $breakpoint--small__max) {
+  .content-area__after-fixed-header {
+    margin-top: 0;
+  }
+}
+
+// medium devices
+@media screen and (min-width: $breakpoint--medium__min) and (max-width: $breakpoint--medium__max) {
+  .content-area__after-fixed-header {
+    margin-top: 0;
+  }
+}

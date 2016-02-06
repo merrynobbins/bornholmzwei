@@ -27,11 +27,20 @@ a {
   background-color: $color--white;
 }
 
+.copytext {
+  display: inline-block;
+  text-align: justify;
+}
+
 .copytext ~ .copytext {
   margin-top: 15px;
 }
 
-.copytext--highlighted {
+.copytext__centered {
+  text-align: center;
+}
+
+.copytext__highlighted {
   color: $color--ci;
   font-style: italic;
   font-weight: 700;

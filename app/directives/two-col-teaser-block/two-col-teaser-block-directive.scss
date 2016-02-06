@@ -1,6 +1,8 @@
 @import "../../constants";
 
 .two-col-teaser-block {
+  overflow: hidden;
+
   .teaser-anchor {
     width: 100%;
   }

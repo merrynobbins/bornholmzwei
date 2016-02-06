@@ -1,5 +1,11 @@
 @import "constants";
-@import url(https://fonts.googleapis.com/css?family=Lilita+One|Oxygen:300,400,700);
+@import url(https://fonts.googleapis.com/css?family=Oxygen:300,400,700);
+
+@font-face {
+  font-family: BrandonPrintedOneWeb;
+  src: url("#{$path--fonts}Brandon_Printed_OneWeb.eot#") format('eot'),
+       url("#{$path--fonts}Brandon_Printed_OneWeb.woff") format('woff');
+}
 
 body {
   font-family: 'Oxygen', sans-serif;
@@ -52,7 +58,7 @@ body {
 }
 
 .content-area__after-fixed-header {
-  margin-top: 185px;
+  margin-top: 160px;
 }
 
 // small devices

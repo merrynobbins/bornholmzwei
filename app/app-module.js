@@ -10,6 +10,17 @@
     .module('bornholmZwei', [
       'ui.router',
       'mm.foundation',
-      'home'
+      'home',
+      'fruechteFuerFluechtlinge',
+      'bornholmLaedtEin',
+      'unsereNatur',
+      'geschichteUndGeschichten',
+      'bienenFuerDasVolk',
+      'politik',
+      'bilder',
+      'satzung',
+      'vorstand',
+      'kontakt',
+      'impressum'
     ]);
 }());

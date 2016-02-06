@@ -1,0 +1,12 @@
+@import "../../constants";
+
+.page-headline {
+  background-color: $color--ci;
+  color: $color--white;
+  padding: 20px;
+  font-size: 28px;
+  font-family: 'Lilita One', cursive;
+  display: inline-block;
+  letter-spacing: 3px;
+  white-space: nowrap;
+}

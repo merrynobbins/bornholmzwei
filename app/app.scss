@@ -1,7 +1,17 @@
 @import "constants";
-@import url(https://fonts.googleapis.com/css?family=Lilita+One|Oxygen:300,400);
+@import url(https://fonts.googleapis.com/css?family=Lilita+One|Oxygen:300,400,700);
 
 body {
   font-family: 'Oxygen', sans-serif;
   color: $color--copytext;
+}
+
+.copytext ~ .copytext {
+  margin-top: 15px;
+}
+
+.copytext--highlighted {
+  color: $color--ci;
+  font-style: italic;
+  font-weight: 700;
 }

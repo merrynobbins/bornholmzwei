@@ -1,0 +1,25 @@
+@import "../../constants";
+
+.two-col-teaser-block {
+  .teaser-anchor {
+    width: 100%;
+  }
+}
+
+.two-col-teaser-block--column {
+  clear: both;
+  margin-top: 10px;
+  float: left;
+}
+
+.two-col-teaser-block--left-item {
+  width: 60%;
+  float: left;
+  padding-right: 15px;
+}
+
+.two-col-teaser-block--right-item {
+  width: 40%;
+  float: right;
+  font-size: 12px;
+}

@@ -8,11 +8,30 @@
   font-family: 'Lilita One', cursive;
   display: inline-block;
   letter-spacing: 3px;
+  white-space: nowrap;
 
   &:hover,
   &:active,
   &:focus {
     background-color: $color--ci__hover;
     color: $color--white;
+  }
+}
+
+// small devices
+@media screen and (max-width: $breakpoint--small__max) {
+  .teaser-anchor {
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+  }
+}
+
+// medium devices
+@media screen and (min-width: $breakpoint--medium__min) and (max-width: $breakpoint--medium__max) {
+  .teaser-anchor {
+    font-size: 26px;
+    text-align: center;
+    padding: 10px;
   }
 }

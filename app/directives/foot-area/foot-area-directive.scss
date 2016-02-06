@@ -1,0 +1,23 @@
+@import '../../constants';
+
+.foot-area {
+  padding: 40px 0;
+  position: relative;
+  text-align: center;
+}
+
+// small devices
+@media screen and (max-width: $breakpoint--small__max) {
+  .foot-area {
+    padding-top: 125px;
+    margin-top: 25px;
+  }
+}
+
+// medium devices
+@media screen and (min-width: $breakpoint--medium__min) and (max-width: $breakpoint--medium__max) {
+  .foot-area {
+    padding-top: 125px;
+    margin-top: 25px;
+  }
+}

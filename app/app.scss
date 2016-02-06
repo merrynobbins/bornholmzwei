@@ -15,3 +15,28 @@ body {
   font-style: italic;
   font-weight: 700;
 }
+
+.navigation {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.navigation--item {
+  display: inline-block;
+}
+
+.navigation--separator {
+  display: inline-block;
+  padding: 0 5px;
+}
+
+.navigation--anchor {
+  color: $color--copytext;
+
+  &:hover,
+  &:active,
+  &:focus {
+    color: $color--copytext;
+    text-decoration: underline;
+  }
+}

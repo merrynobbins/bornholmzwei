@@ -8,3 +8,10 @@
   text-align: center;
   margin-top: 20px;
 }
+
+// small devices
+@media screen and (max-width: $breakpoint--small__max) {
+  .headline {
+    font-size: 25px;
+  }
+}

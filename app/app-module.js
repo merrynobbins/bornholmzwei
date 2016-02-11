@@ -22,6 +22,7 @@
       'satzung',
       'vorstand',
       'kontakt',
-      'impressum'
+      'impressum',
+      'lageplan'
     ]);
 }());

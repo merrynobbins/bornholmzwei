@@ -4,6 +4,10 @@
   padding: 40px 0;
   position: relative;
   text-align: center;
+
+  .copytext__highlighted {
+    color: $color--accent;
+  }
 }
 
 .foot-area__fixed {

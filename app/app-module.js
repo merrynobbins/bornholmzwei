@@ -13,7 +13,7 @@
       'mm.foundation',
       'home',
       'fruechteFuerFluechtlinge',
-      'bornholmLaedtEin',
+      'bornholmZweiLaedtEin',
       'unsereNatur',
       'geschichteUndGeschichten',
       'bienenFuerDasVolk',

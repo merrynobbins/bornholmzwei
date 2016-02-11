@@ -8,7 +8,8 @@
 }
 
 body {
-  font-family: 'Oxygen', sans-serif;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 700;
   color: $color--copytext;
   background: url("#{$path--images}holz.jpg") fixed no-repeat 0 0 transparent;
 }

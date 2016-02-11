@@ -1,5 +1,17 @@
 @import "../../constants";
 
+.block-header {
+  border-top: 1px solid $color--ci;
+  border-bottom: 1px solid $color--ci;
+  color: $color--ci;
+  padding: 5px 0;
+  margin-bottom: 15px;
+}
+
+.block-header__right {
+  text-align: right;
+}
+
 // small devices
 @media screen and (max-width: $breakpoint--small__max) {
   .module--geschichte-und-geschichten {

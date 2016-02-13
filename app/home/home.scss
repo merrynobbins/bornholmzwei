@@ -1,7 +1,13 @@
-.imagegallery {
-  margin-top: 50px;
-}
+.module--home {
+  .imagegallery {
+    margin-top: 50px;
+  }
 
-.imagegallery ~ .headline {
-  margin-top: 50px;
+  .imagegallery ~ .headline {
+    margin-top: 50px;
+  }
+
+  .foot-area__fixed {
+    padding-bottom: 75px;
+  }
 }

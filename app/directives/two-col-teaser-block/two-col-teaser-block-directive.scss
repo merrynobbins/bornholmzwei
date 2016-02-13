@@ -8,7 +8,7 @@
   }
 
   .copytext__small {
-    font-size: 12px;
+    font-size: #{12 / $font-size--base__no-unit}em;
   }
 }
 
@@ -20,7 +20,7 @@
 // small devices
 @media screen and (max-width: $breakpoint--small__max) {
   .two-col-teaser-block--right-item {
-    font-size: 100%;
+    font-size: #{16 / $font-size--base__no-unit}em;
   }
 
   .two-col-teaser-block--column,
@@ -32,7 +32,7 @@
 // medium devices
 @media screen and (min-width: $breakpoint--medium__min) and (max-width: $breakpoint--medium__max) {
   .two-col-teaser-block--right-item {
-    font-size: 100%;
+    font-size: #{16 / $font-size--base__no-unit}em;
   }
 
   .two-col-teaser-block--column,

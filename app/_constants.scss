@@ -13,3 +13,7 @@ $breakpoint--medium__min: 40em;
 $breakpoint--medium__max: 63.9375em;
 $breakpoint--large__min: 64em;
 $breakpoint--large__max: 74.9375em;
+
+$font-size--base: 16px;
+$font-size--neutral: 1px;
+$font-size--base__no-unit: $font-size--base / $font-size--neutral;

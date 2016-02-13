@@ -2,7 +2,7 @@
 
 .page-title {
   font-family: 'Oxygen', sans-serif;
-  font-size: 35pt;
+  font-size: #{46 / $font-size--base__no-unit}em;
   font-weight: 300;
   line-height: 1;
 }
@@ -10,7 +10,7 @@
 // small devices
 @media screen and (max-width: $breakpoint--small__max) {
   .page-title {
-    font-size: 35px;
+    font-size: #{35 / $font-size--base__no-unit}em;
     text-align: center;
   }
 }
@@ -18,6 +18,6 @@
 // medium devices
 @media screen and (min-width: $breakpoint--medium__min) and (max-width: $breakpoint--medium__max) {
   .page-title {
-    font-size: 45px;
+    font-size: #{45 / $font-size--base__no-unit}em;
   }
 }

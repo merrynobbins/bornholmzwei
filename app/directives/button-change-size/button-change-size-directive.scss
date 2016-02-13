@@ -1,0 +1,52 @@
+@import '../../constants';
+
+.button-change-size {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: rgba($color--ci, 0.5);
+  padding: 6px 10px 4px;
+  border-radius: 3px;
+  margin: 10px 20px;
+  color: rgba($color--white, 0.5);
+  transition: 250ms all;
+  font-size: $font-size--base;
+
+  &:hover,
+  &:active,
+  &:focus {
+    background-color: $color--ci;
+    color: $color--white;
+  }
+}
+
+.button-change-size--action {
+  cursor: pointer;
+  user-select: none;
+  vertical-align: middle;
+  display: inline-block;
+  line-height: 30px;
+
+  &:hover,
+  &:active,
+  &:focus {
+    color: $color--copytext__hover;
+  }
+}
+
+.button-change-size--action ~ .button-change-size--action {
+  margin-left: 5px;
+}
+
+.button-change-size--action--small {
+  font-size: $font-size--base - 4px;
+}
+
+.button-change-size--action--medium {
+  font-size: $font-size--base;
+}
+
+.button-change-size--action--large {
+  font-size: $font-size--base + 4px;
+  margin-top: -1px;
+}

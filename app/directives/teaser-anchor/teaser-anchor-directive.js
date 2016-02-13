@@ -36,8 +36,6 @@
         /* jshint unused:false */
         /* eslint "no-unused-vars": [2, {"args": "none"}] */
 
-        console.log(attrs);
-
         scope.content = attrs.content;
         scope.anchor = attrs.anchor;
       }

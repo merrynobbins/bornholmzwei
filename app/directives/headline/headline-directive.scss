@@ -3,7 +3,7 @@
 .headline {
   font-family: BrandonPrintedOneWeb, sans-serif;
   color: $color--ci;
-  font-size: 34px;
+  font-size: #{34 / $font-size--base__no-unit}em;
   text-align: center;
   margin-top: 20px;
 }
@@ -11,6 +11,6 @@
 // small devices
 @media screen and (max-width: $breakpoint--small__max) {
   .headline {
-    font-size: 25px;
+    font-size: #{25 / $font-size--base__no-unit}em;
   }
 }

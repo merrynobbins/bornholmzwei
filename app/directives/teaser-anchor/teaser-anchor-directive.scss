@@ -4,7 +4,7 @@
   background-color: $color--ci;
   color: $color--white;
   padding: 25px 20px 20px;
-  font-size: 28px;
+  font-size: #{28 / $font-size--base__no-unit}em;
   font-family: BrandonPrintedOneWeb, sans-serif;
   display: inline-block;
   white-space: nowrap;
@@ -20,7 +20,7 @@
 // small devices
 @media screen and (max-width: $breakpoint--small__max) {
   .teaser-anchor {
-    font-size: 20px;
+    font-size: #{20 / $font-size--base__no-unit}em;
     text-align: center;
     padding: 10px;
   }
@@ -29,7 +29,7 @@
 // medium devices
 @media screen and (min-width: $breakpoint--medium__min) and (max-width: $breakpoint--medium__max) {
   .teaser-anchor {
-    font-size: 26px;
+    font-size: #{26 / $font-size--base__no-unit}em;
     text-align: center;
     padding: 10px;
   }

@@ -56,7 +56,7 @@ a {
 }
 
 .copytext__small {
-  font-size: 13px;
+  font-size: #{13 / $font-size--base__no-unit}em;
 }
 
 .navigation {

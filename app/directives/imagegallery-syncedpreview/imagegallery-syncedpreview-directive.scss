@@ -1,9 +1,11 @@
 @import "../../constants";
 
-.slick-slide {
-  width: 100px;
-  height: 100px;
-  margin-right: 20px;
+.imagegallery-syncedpreview {
+  .slick-slide {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+  }
 }
 
 .imagegallery-syncedpreview--window {

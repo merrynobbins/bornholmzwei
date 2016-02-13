@@ -1,44 +1,20 @@
 @import "../../constants";
 
-.slick-slide {
-  width: 186px;
-  height: 186px;
-  margin-right: 20px;
-}
+.imagegallery {
+  .slick-dots li button {
+    position: relative;
 
-.imagegallery--item {
-  background: url("") scroll no-repeat center center transparent;
-  background-size: cover;
-}
-
-.imagegallery--item__1 {
-  background-image: url("#{$path--images}slider/IMG_1948.jpg");
-}
-
-.imagegallery--item__2 {
-  background-image: url("#{$path--images}slider/IMG_4578.jpg");
-}
-
-.imagegallery--item__3 {
-  background-image: url("#{$path--images}slider/IMG_9129.jpg");
-}
-
-.imagegallery--item__4 {
-  background-image: url("#{$path--images}slider/IMG_9139.jpg");
-}
-
-.imagegallery--item__5 {
-  background-image: url("#{$path--images}slider/IMG_9146.jpg");
-}
-
-.imagegallery--item__6 {
-  background-image: url("#{$path--images}slider/IMG_9195.jpg");
-}
-
-.imagegallery--item__7 {
-  background-image: url("#{$path--images}slider/IMG_9198.jpg");
-}
-
-.imagegallery--item__8 {
-  background-image: url("#{$path--images}slider/IMG_9204.jpg");
+    &:before {
+      content: '';
+      width: 6px;
+      height: 6px;
+      background-color: $color--copytext;
+      border-radius: 50%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      margin-top: -3px;
+      margin-left: -3px;
+    }
+  }
 }

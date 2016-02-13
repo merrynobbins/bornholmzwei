@@ -3,7 +3,7 @@
 
   /**
    * @ngdoc directive
-   * @name bornholmZwei.directive:imagegallery
+   * @name bornholmZwei.directive:imagecarousel
    * @restrict EA
    * @element
    *
@@ -12,25 +12,25 @@
    * @example
      <example module="bornholmZwei">
        <file name="index.html">
-        <imagegallery></imagegallery>
+        <imagecarousel></imagecarousel>
        </file>
      </example>
    *
    */
   angular
     .module('bornholmZwei')
-    .directive('imagegallery', imagegallery);
+    .directive('imagecarousel', imagecarousel);
 
-  function imagegallery() {
+  function imagecarousel() {
     return {
       restrict: 'EA',
       scope: false,
-      templateUrl: 'directives/imagegallery/imagegallery-directive.tpl.html',
+      templateUrl: 'directives/imagecarousel/imagecarousel-directive.tpl.html',
       replace: true,
-      controllerAs: 'imagegallery',
+      controllerAs: 'imagecarousel',
       controller: function () {
         var vm = this;
-        vm.name = 'imagegallery';
+        vm.name = 'imagecarousel';
       },
       link: function (scope, element, attrs) {
         /* jshint unused:false */

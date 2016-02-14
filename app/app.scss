@@ -24,6 +24,15 @@ a {
   }
 }
 
+.ng-view,
+.module {
+  height: 100%;
+}
+
+.module > .row {
+  min-height: 100%;
+}
+
 .row {
   background-color: $color--white;
 }

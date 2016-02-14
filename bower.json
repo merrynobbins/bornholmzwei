@@ -8,7 +8,8 @@
     "angular-ui-router": "~0.2.10",
     "foundation": "~5.4.0",
     "angular-slick": "^0.2.1",
-    "angular-youtube-mb": "^1.1.1"
+    "angular-youtube-mb": "^1.1.1",
+    "ngGallery": "*"
   },
   "devDependencies": {
     "angular-mocks": "~1.4.*"

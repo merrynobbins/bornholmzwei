@@ -8,6 +8,7 @@
    */
   angular
     .module('bilder', [
-      'ui.router'
+      'ui.router',
+      'jkuri.gallery'
     ]);
 }());

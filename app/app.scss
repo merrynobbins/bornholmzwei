@@ -24,6 +24,10 @@ a {
   }
 }
 
+img {
+  margin-top: 20px;
+}
+
 .ng-view,
 .module {
   height: 100%;
@@ -60,6 +64,17 @@ a {
   font-style: italic;
   font-weight: 700;
   font-size: 100%;
+}
+
+.imageExpand {
+  display: block;
+  margin-top: 20px;
+
+  .ng-thumb {
+    margin: 0;
+    width: 100%;
+    height: auto;
+  }
 }
 
 .navigation {

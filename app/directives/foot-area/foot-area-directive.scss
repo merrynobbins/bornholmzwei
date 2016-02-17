@@ -5,6 +5,10 @@
   position: relative;
   text-align: center;
 
+  .copytext {
+    text-align: center;
+  }
+
   .copytext__highlighted {
     color: $color--accent;
   }

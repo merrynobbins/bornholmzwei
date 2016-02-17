@@ -47,25 +47,19 @@ a {
 
 .copytext {
   display: block;
-  text-align: justify;
+  text-align: center;
+  font-size: #{13 / $font-size--base__no-unit}em;
 }
 
 .copytext ~ .copytext {
   margin-top: 15px;
 }
 
-.copytext__centered {
-  text-align: center;
-}
-
 .copytext__highlighted {
   color: $color--ci;
   font-style: italic;
   font-weight: 700;
-}
-
-.copytext__small {
-  font-size: #{13 / $font-size--base__no-unit}em;
+  font-size: 100%;
 }
 
 .navigation {

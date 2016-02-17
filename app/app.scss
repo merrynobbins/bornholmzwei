@@ -73,6 +73,22 @@ img {
     width: 25%;
     margin: 0;
   }
+
+  .ng-thumbnails-wrapper {
+    img {
+      margin: 0;
+    }
+  }
+
+  .ng-gallery-content {
+    .info-text {
+      display: none;
+    }
+  }
+
+  img {
+    margin-top: -40px;
+  }
 }
 
 .imageExpand {

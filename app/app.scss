@@ -24,6 +24,39 @@ a {
   }
 }
 
+// phone
+@media screen and (max-width: $breakpoint--small__max) {
+  .show-on-phone {
+    display: block;
+  }
+
+  .hide-on-phone {
+    display: none;
+  }
+}
+
+// tablet
+@media screen and (min-width: $breakpoint--medium__min) and (max-width: $breakpoint--medium__max) {
+  .show-on-phone {
+    display: none;
+  }
+
+  .hide-on-phone {
+    display: block;
+  }
+}
+
+// desktop
+@media screen and (min-width: $breakpoint--large__min) {
+  .show-on-phone {
+    display: none;
+  }
+
+  .hide-on-phone {
+    display: block;
+  }
+}
+
 .ng-view,
 .module {
   height: 100%;
@@ -41,18 +74,10 @@ a {
   margin-top: 30px;
 }
 
-.page-headline + .row {
-  margin-top: 30px;
-}
-
 .copytext {
   display: block;
   text-align: justify;
   font-size: #{16 / $font-size--base__no-unit}em;
-}
-
-.copytext ~ .copytext {
-  margin-top: 15px;
 }
 
 .copytext__highlighted {
@@ -105,7 +130,6 @@ a {
 
 .imageExpand {
   display: block;
-  margin-top: 20px;
 
   .ng-thumb {
     margin: 0;
@@ -124,7 +148,6 @@ a {
 
 .navigation {
   text-align: center;
-  margin-top: 25px;
 }
 
 .navigation--item {
@@ -148,29 +171,24 @@ a {
 }
 
 .teaser-image {
-  margin-top: 20px;
   width: 100%;
   max-width: 100%;
 }
 
-.teaser-image ~ .row {
-  margin-top: 25px;
-}
-
-.content-area__after-fixed-header {
+.row.row__after-fixed-header {
   margin-top: 180px;
 }
 
 // small devices
 @media screen and (max-width: $breakpoint--small__max) {
-  .content-area__after-fixed-header {
+  .row.row__after-fixed-header {
     margin-top: 0;
   }
 }
 
 // medium devices
 @media screen and (min-width: $breakpoint--medium__min) and (max-width: $breakpoint--medium__max) {
-  .content-area__after-fixed-header {
+  .row.row__after-fixed-header {
     margin-top: 0;
   }
 }

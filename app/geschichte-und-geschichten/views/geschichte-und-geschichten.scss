@@ -17,23 +17,16 @@
   .module--geschichte-und-geschichten {
     .row ~ .row {
       > .columns {
-        &:first-child {
-          > .copytext {
-            border-top: 1px solid $color--ci;
-            padding-top: 20px;
-          }
+        .block-header {
+          text-align: center;
         }
       }
     }
 
-    .row {
-      > .columns {
-        &:last-child {
-          > img {
-            margin-top: 10px;
-          }
-        }
-      }
+    img {
+      margin-top: 10px;
+      width: 100%;
+      height: auto;
     }
   }
 }

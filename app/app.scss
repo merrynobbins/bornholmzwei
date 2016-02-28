@@ -64,10 +64,11 @@ a {
 }
 
 .imagegallery {
+  display: block;
+
   .ng-thumb {
     height: auto;
-    padding: 10px;
-    width: 25%;
+    width: 100%;
     margin: 0;
   }
 
@@ -85,6 +86,20 @@ a {
 
   img {
     margin-top: -40px;
+  }
+
+  .ng-gallery {
+    width: calc(100% + 20px);
+    height: 100%;
+    display: inline-block;
+    margin-left: -20px;
+
+    > div {
+      padding-left: 20px;
+      padding-bottom: 20px;
+      float: left;
+      width: 25%;
+    }
   }
 }
 

@@ -18,11 +18,11 @@
       'geschichteUndGeschichten',
       'bienenFuerDasVolk',
       'politik',
-      'bilder',
       'satzung',
-      'vorstand',
       'kontakt',
       'impressum',
-      'lageplan'
+      'lageplan',
+      'galerie',
+      'termine'
     ]);
 }());

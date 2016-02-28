@@ -1,9 +1,9 @@
 /* global element, by */
 'use strict';
 
-function VorstandPage() {
+function TerminePage() {
   this.text = element(by.tagName('p'));
   this.heading = element(by.tagName('h2'));
 }
 
-module.exports = VorstandPage;
+module.exports = TerminePage;

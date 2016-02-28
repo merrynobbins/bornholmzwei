@@ -2,13 +2,12 @@
   'use strict';
 
   /* @ngdoc object
-   * @name bilder
+   * @name termine
    * @description
    *
    */
   angular
-    .module('bilder', [
-      'ui.router',
-      'jkuri.gallery'
+    .module('termine', [
+      'ui.router'
     ]);
 }());

@@ -2,12 +2,13 @@
   'use strict';
 
   /* @ngdoc object
-   * @name vorstand
+   * @name galerie
    * @description
    *
    */
   angular
-    .module('vorstand', [
-      'ui.router'
+    .module('galerie', [
+      'ui.router',
+      'jkuri.gallery'
     ]);
 }());

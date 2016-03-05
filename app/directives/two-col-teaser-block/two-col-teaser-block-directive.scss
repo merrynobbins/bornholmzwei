@@ -5,7 +5,6 @@
 
   .teaser-anchor {
     width: 100%;
-    padding: 25px 0 20px 15px;
   }
 }
 
@@ -27,13 +26,5 @@
   .two-col-teaser-block--column,
   .row .two-col-teaser-block--column {
     margin-top: 25px;
-  }
-}
-
-@media screen and (min-width: $breakpoint--large__min) {
-  .two-col-teaser-block {
-    .copytext {
-      line-height: 136%;
-    }
   }
 }

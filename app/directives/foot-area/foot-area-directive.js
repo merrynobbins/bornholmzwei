@@ -27,7 +27,6 @@
       scope: {},
       templateUrl: 'directives/foot-area/foot-area-directive.tpl.html',
       replace: true,
-      transclude: true,
       controllerAs: 'footArea',
       controller: function () {
         var vm = this;

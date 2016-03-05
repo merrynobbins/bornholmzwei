@@ -1,20 +1,26 @@
 .module.module--termine
     .row
-        .small-0.large-1.columns &nbsp;
-        .small-12.large-10.columns
+        .small-12.columns
             .row
-                .small-12.columns
+                .small-12.large-10.large-offset-1.columns
                     head-area
+                .small-0.large-1.end.columns
 
-            .row.row__after-fixed-header
-                .small-12.columns
-                    page-headline(data-content="POLITIK")
+            .row.row__after-fixed-header.main-content-area
+                .small-12.large-10.large-offset-1.columns
+                    .row
+                        .small-12.columns
+                            page-headline(data-content="TERMINE")
+
+                    .row
+                        .small-12.columns
+                            .copytext Hier könnte ein Kalender verlinkt sein.
+
+                .small-0.large-1.end.columns
 
             .row
-                .small-12.columns
-                    .copytext Hier könnte ein Kalender verlinkt sein.
-
-            .row
-                .small-12.columns
-                    foot-area
-        .small-0.large-1.columns &nbsp;
+                .small-12.large-10.large-offset-1.columns
+                    .row
+                        .small-12.columns
+                            foot-area
+                .small-0.large-1.end.columns

@@ -63,7 +63,7 @@
               break;
           }
 
-          angular.element('body').css('font-size', '' + fontSize + '%');
+          angular.element('.main-content-area').css('font-size', '' + fontSize + '%');
         };
       }
     };

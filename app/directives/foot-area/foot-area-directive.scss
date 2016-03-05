@@ -15,6 +15,7 @@
 
   .navigation {
     font-weight: 700;
+    font-size: #{18 / $font-size--base__no-unit}em;
   }
 }
 

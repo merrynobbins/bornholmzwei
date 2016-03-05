@@ -25,39 +25,6 @@ a {
   }
 }
 
-// phone
-@media screen and (max-width: $breakpoint--small__max) {
-  .show-on-phone {
-    display: block;
-  }
-
-  .hide-on-phone {
-    display: none;
-  }
-}
-
-// tablet
-@media screen and (min-width: $breakpoint--medium__min) and (max-width: $breakpoint--medium__max) {
-  .show-on-phone {
-    display: none;
-  }
-
-  .hide-on-phone {
-    display: block;
-  }
-}
-
-// desktop
-@media screen and (min-width: $breakpoint--large__min) {
-  .show-on-phone {
-    display: none;
-  }
-
-  .hide-on-phone {
-    display: block;
-  }
-}
-
 .ng-view,
 .module {
   height: 100%;

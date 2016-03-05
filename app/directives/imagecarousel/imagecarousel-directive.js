@@ -37,7 +37,7 @@
         /* eslint "no-unused-vars": [2, {"args": "none"}] */
 
         angular.element(element).slick({
-          dots: true,
+          dots: false,
           infinite: true,
           speed: 750,
           slidesToShow: 3,

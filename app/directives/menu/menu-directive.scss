@@ -1,9 +1,5 @@
 @import '../../constants';
 
-.menu {
-  zoom: 1;
-}
-
 .menu--burger {
   width: 36px;
   height: 36px;
@@ -69,8 +65,6 @@
 }
 
 .menu--content__primary {
-  zoom: 1;
-
   .menu--anchor {
     color: $color--ci;
 
@@ -79,14 +73,6 @@
     &:focus {
       color: $color--ci__hover;
     }
-  }
-}
-
-.menu--content__secondary {
-  zoom: 1;
-
-  .menu--anchor {
-    zoom: 1;
   }
 }
 

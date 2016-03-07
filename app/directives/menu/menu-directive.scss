@@ -1,0 +1,131 @@
+@import '../../constants';
+
+.menu {
+  zoom: 1;
+}
+
+.menu--burger {
+  width: 36px;
+  height: 36px;
+  background-color: $color--burger;
+  border-radius: 3px;
+  padding: 5px 5px 0;
+  cursor: pointer;
+  transition: 250ms all;
+  display: inline-block;
+
+  &:hover,
+  &:active,
+  &:focus {
+    background-color: $color--burger__hover;
+  }
+}
+
+.menu--burger-line {
+  width: 100%;
+  height: 5px;
+  background-color: $color--white;
+  border-radius: 3px;
+}
+
+.menu--burger-line ~ .menu--burger-line {
+  margin-top: 5px;
+}
+
+.menu--content-wrapper {
+  background-color: $color--white;
+  box-shadow: 0 0 35px -10px $color--black;
+  border-radius: 5px;
+  padding: 15px 10px;
+  width: 300px;
+  border: 1px solid $color--copytext;
+  position: absolute;
+  left: 55px;
+  top: 0;
+  transition: 250ms all;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.menu--content-wrapper__visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+.menu--content {
+  padding: 0 10px;
+}
+
+.menu--content ~ .menu--content {
+  border-top: 2px solid $color--copytext;
+  margin-top: 5px;
+  padding-top: 5px;
+}
+
+.menu--content__primary {
+  zoom: 1;
+
+  .menu--anchor {
+    color: $color--ci;
+
+    &:hover,
+    &:active,
+    &:focus {
+      color: $color--ci__hover;
+    }
+  }
+}
+
+.menu--content__secondary {
+  zoom: 1;
+
+  .menu--anchor {
+    zoom: 1;
+  }
+}
+
+.menu--anchor {
+  display: block;
+  padding: 4px 0 2px;
+  margin: 2px 0;
+  color: $color--copytext;
+
+  &:hover,
+  &:active,
+  &:focus {
+    color: $color--copytext__hover;
+  }
+}
+
+.menu--anchor ~ .menu--anchor {
+  border-top: 1px solid $color--copytext;
+}
+
+// overrides for everything mobile
+@media screen and (max-width: $breakpoint--medium__max) {
+  .menu--content-wrapper {
+    display: none;
+    position: static;
+    border: medium none;
+    border-radius: 0;
+    box-shadow: 0 20px 35px -15px $color--black;
+    padding: 0 0 15px;
+    width: calc(100% + 30px);
+    margin-top: 30px;
+    margin-left: -15px;
+  }
+
+  .menu--content-wrapper__visible {
+    display: block;
+  }
+
+  .menu--content {
+    padding: 0 15px;
+  }
+}

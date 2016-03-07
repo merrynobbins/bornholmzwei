@@ -1,5 +1,11 @@
-a(href="/#/home")
-    .head-area.head-area__fixed
-        page-title(data-content="BORNHOLM-ZWEI.DE")
-        page-slogan(data-content="DA WÄCHST WAS")
-        page-logo
+.head-area.head-area__fixed
+    .head-area--interactions-wrapper
+        menu
+        button-change-size.hide-on-print.hidden-for-medium-down
+    .head-area--main-content-wrapper
+        a(href="/#/home" title="zur Startseite")
+            page-title(data-content="BORNHOLM-ZWEI.DE")
+            page-slogan(data-content="DA WÄCHST WAS")
+    .head-area--logo-wrapper
+        a(href="/#/home" title="zur Startseite")
+            page-logo

@@ -3,19 +3,14 @@
 .page-logo {
   width: 120px;
   display: inline-block;
-  position: absolute;
   background: url("#{$path--images}header.png") scroll no-repeat 0 0 transparent;
   background-size: contain;
-  top: 18px;
-  right: -75px;
   height: 127px
 }
 
 // small devices
 @media screen and (max-width: $breakpoint--small__max) {
-  .page-logo {
-    display: none;
-  }
+
 }
 
 // medium devices

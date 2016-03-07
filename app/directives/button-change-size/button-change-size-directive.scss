@@ -1,16 +1,13 @@
 @import '../../constants';
 
 .button-change-size {
-  position: fixed;
-  bottom: 0;
-  right: 0;
   background-color: rgba($color--ci, 0.5);
   padding: 6px 10px 4px;
   border-radius: 3px;
-  margin: 10px 20px;
   color: rgba($color--white, 0.5);
   transition: 250ms all;
   font-size: $font-size--base;
+  display: inline-block;
 
   &:hover,
   &:active,

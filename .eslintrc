@@ -5,6 +5,7 @@
   ],
   "rules": {
     "angular/ng_controller_name": [2, "/[A-Z].*Ctrl$/"],
+    "angular/ng_timeout_service": 0,
     "consistent-this": 0
   }
 }

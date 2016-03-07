@@ -32,7 +32,7 @@
   background-color: $color--white;
   box-shadow: 0 0 35px -10px $color--black;
   border-radius: 5px;
-  padding: 15px 10px;
+  padding: 15px 20px;
   width: 300px;
   border: 1px solid $color--copytext;
   position: absolute;
@@ -54,14 +54,8 @@
   visibility: visible;
 }
 
-.menu--content {
-  padding: 0 10px;
-}
-
 .menu--content ~ .menu--content {
-  border-top: 2px solid $color--copytext;
-  margin-top: 5px;
-  padding-top: 5px;
+  border-top: 1px solid $color--copytext;
 }
 
 .menu--content__primary {

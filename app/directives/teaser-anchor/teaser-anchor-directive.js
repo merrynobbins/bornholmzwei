@@ -27,6 +27,7 @@
       scope: {},
       templateUrl: 'directives/teaser-anchor/teaser-anchor-directive.tpl.html',
       replace: true,
+      transclude: true,
       controllerAs: 'teaserAnchor',
       controller: function () {
         var vm = this;

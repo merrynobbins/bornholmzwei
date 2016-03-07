@@ -101,7 +101,7 @@
     border: medium none;
     border-radius: 0;
     box-shadow: 0 20px 35px -15px $color--black;
-    padding: 0 0 15px;
+    padding: 0 15px 15px;
     width: calc(100% + 30px);
     margin-top: 30px;
     margin-left: -15px;
@@ -112,6 +112,12 @@
   }
 
   .menu--content {
-    padding: 0 15px;
+    padding: 0;
+  }
+
+  .menu--content ~ .menu--content {
+    border-top: 1px solid $color--copytext;
+    margin-top: 0;
+    padding-top: 0;
   }
 }

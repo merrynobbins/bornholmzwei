@@ -10,7 +10,57 @@
                 .small-12.large-10.large-offset-1.columns
                     .row
                         .small-12.columns
-                            page-headline(data-content="BILDER")
+                            page-headline(data-content="VIDEOS")
+
+                    .row
+                        .small-12.columns
+                            #videogallery.videogallery--list
+                                span.videogallery--item
+                                    img.videogallery--thumbnail(src="https://i.ytimg.com/vi/eh7lp9umG2I/hqdefault.jpg" alt="" data-reveal-id="video1")
+
+                                #video1.reveal-modal.large(data-reveal aria-hidden="true" role="dialog")
+                                    .flex-video.widescreen.youtube
+                                        iframe(width="1280" height="720" src="//www.youtube-nocookie.com/embed/eh7lp9umG2I" frameborder="0" allowfullscreen)
+                                    a.close-reveal-modal(aria-label="Close") &#215;
+
+                                span.videogallery--item
+                                    img.videogallery--thumbnail(src="https://i.ytimg.com/vi/kxopViU98Xo/hqdefault.jpg" alt="" data-reveal-id="video2")
+
+                                #video2.reveal-modal.large(data-reveal aria-hidden="true" role="dialog")
+                                    .flex-video.widescreen.youtube
+                                        iframe(width="1280" height="720" src="//www.youtube-nocookie.com/embed/kxopViU98Xo" frameborder="0" allowfullscreen)
+                                    a.close-reveal-modal(aria-label="Close") &#215;
+
+                                span.videogallery--item
+                                    img.videogallery--thumbnail(src="https://i.ytimg.com/vi/sCNrK-n68CM/hqdefault.jpg" alt="" data-reveal-id="video3")
+
+                                #video3.reveal-modal.large(data-reveal aria-hidden="true" role="dialog")
+                                    .flex-video.widescreen.youtube
+                                        iframe(width="1280" height="720" src="//www.youtube-nocookie.com/embed/sCNrK-n68CM" frameborder="0" allowfullscreen)
+                                    a.close-reveal-modal(aria-label="Close") &#215;
+
+                                span.videogallery--item
+                                    img.videogallery--thumbnail(src="https://i.ytimg.com/vi/Ch94DHwHdYQ/hqdefault.jpg" alt="" data-reveal-id="video4")
+
+                                #video4.reveal-modal.large(data-reveal aria-hidden="true" role="dialog")
+                                    .flex-video.widescreen.youtube
+                                        iframe(width="1280" height="720" src="//www.youtube-nocookie.com/embed/Ch94DHwHdYQ" frameborder="0" allowfullscreen)
+                                    a.close-reveal-modal(aria-label="Close") &#215;
+
+                                span.videogallery--item
+                                    img.videogallery--thumbnail(src="https://i.ytimg.com/vi/1rmLIVkmR4w/hqdefault.jpg" alt="" data-reveal-id="video5")
+
+                                #video5.reveal-modal.large(data-reveal aria-hidden="true" role="dialog")
+                                    .flex-video.widescreen.youtube
+                                        iframe(width="1280" height="720" src="//www.youtube-nocookie.com/embed/1rmLIVkmR4w" frameborder="0" allowfullscreen)
+                                    a.close-reveal-modal(aria-label="Close") &#215;
+
+                            script(type="text/javascript")
+                                | jQuery('#videogallery').foundation();
+
+                    .row
+                        .small-12.columns
+                            page-headline.modifier--double-margin-top(data-content="BILDER")
 
                     .row
                         .small-12.columns

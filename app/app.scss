@@ -25,6 +25,10 @@ a {
   }
 }
 
+.modifier--double-margin-top {
+  margin-top: 60px;
+}
+
 .ng-view,
 .module {
   height: 100%;
@@ -165,4 +169,27 @@ a {
   .row.row__after-fixed-header {
     margin-top: 0;
   }
+}
+
+.flex-video {
+  display: block !important;
+}
+
+.videogallery--list {
+  margin: 0 0 0 -20px;
+  list-style-type: none;
+  width: calc(100% + 20px);
+}
+
+.videogallery--item {
+  width: 25%;
+  float: left;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.videogallery--thumbnail {
+  width: 100%;
+  height: auto;
+  cursor: pointer;
 }

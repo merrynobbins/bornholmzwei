@@ -24,7 +24,7 @@
   function pageHeadline() {
     return {
       restrict: 'EA',
-      scope: false,
+      scope: {},
       templateUrl: 'directives/page-headline/page-headline-directive.tpl.html',
       replace: true,
       controllerAs: 'pageHeadline',

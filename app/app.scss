@@ -58,6 +58,18 @@ a {
   font-size: #{16 / $font-size--base__no-unit}em;
 }
 
+.copytext__centered {
+  display: block;
+  text-align: center;
+  font-size: #{16 / $font-size--base__no-unit}em;
+}
+
+.copytext__left {
+  display: block;
+  text-align: left;
+  font-size: #{16 / $font-size--base__no-unit}em;
+}
+
 .copytext__highlighted {
   color: $color--ci;
   font-style: italic;

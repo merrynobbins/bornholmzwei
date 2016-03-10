@@ -1,6 +1,12 @@
 @import "../../constants";
 
-.block-header {
+.image-text-blocks {
+  > .row ~ .row {
+    margin-top: 50px;
+  }
+}
+
+.image-text-blocks--title {
   border-top: 1px solid $color--ci;
   border-bottom: 1px solid $color--ci;
   color: $color--ci;
@@ -8,7 +14,7 @@
   margin-bottom: 15px;
 }
 
-.block-header__right {
+.image-text-blocks--title__right {
   text-align: right;
 }
 

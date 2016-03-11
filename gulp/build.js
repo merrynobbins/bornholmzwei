@@ -220,6 +220,12 @@ module.exports = function (gulp, $, config) {
       .pipe(gulp.dest(config.buildImages));
   });
 
+  // copy the downloads into the build directory
+  gulp.task('downloads', ['clean'], function () {
+    return gulp.src(config.appDownloadsFiles)
+        .pipe(gulp.dest(config.buildDownloads));
+  });
+
   gulp.task('copyTemplates', ['bowerInject'], function () {
     // always copy templates to testBuild directory
     var stream = $.streamqueue({objectMode: true});
@@ -255,5 +261,5 @@ module.exports = function (gulp, $, config) {
       });
   });
 
-  gulp.task('build', ['deleteTemplates', 'bowerAssets', 'images', 'favicon', 'fonts']);
+  gulp.task('build', ['deleteTemplates', 'bowerAssets', 'images', 'favicon', 'fonts', 'downloads']);
 };

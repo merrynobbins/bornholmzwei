@@ -8,23 +8,20 @@
   }
 }
 
-.two-col-teaser-block--column,
-.row .two-col-teaser-block--column {
+.two-col-teaser-block--row {
   margin-top: 15px;
 }
 
 // small devices
 @media screen and (max-width: $breakpoint--small__max) {
-  .two-col-teaser-block--column,
-  .row .two-col-teaser-block--column {
+  .two-col-teaser-block--row {
     margin-top: 25px;
   }
 }
 
 // medium devices
 @media screen and (min-width: $breakpoint--medium__min) and (max-width: $breakpoint--medium__max) {
-  .two-col-teaser-block--column,
-  .row .two-col-teaser-block--column {
+  .two-col-teaser-block--row {
     margin-top: 25px;
   }
 }

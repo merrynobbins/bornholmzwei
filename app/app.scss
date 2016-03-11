@@ -201,3 +201,11 @@ a {
   height: auto;
   cursor: pointer;
 }
+
+// bugfix: on phones the combination of .hidden-for-small-only and .row ~ .row would override the width: 1px to width: auto,
+// thus creating negative right margin that would make the page scrollable horizontally, which is absolutely bollocks
+@media only screen {
+  .row.hidden-for-small-only {
+    width: 1px;
+  }
+}

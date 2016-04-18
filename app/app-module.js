@@ -17,7 +17,7 @@
       'unsereNatur',
       'geschichteUndGeschichten',
       'bienenFuerDasVolk',
-      'politik',
+      'neuigkeiten',
       'satzung',
       'kontakt',
       'impressum',

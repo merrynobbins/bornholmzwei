@@ -2,12 +2,12 @@
   'use strict';
 
   /* @ngdoc object
-   * @name politik
+   * @name neuigkeiten
    * @description
    *
    */
   angular
-    .module('politik', [
+    .module('neuigkeiten', [
       'ui.router'
     ]);
 }());

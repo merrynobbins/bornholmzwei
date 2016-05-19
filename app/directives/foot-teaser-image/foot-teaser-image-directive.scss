@@ -3,8 +3,8 @@
 .foot-teaser-image {
   background: url("#{$path--images}star.png") scroll no-repeat 0 0 transparent;
   background-size: contain;
-  width: 130px;
-  height: 130px;
+  width: 120px;
+  height: 120px;
   font-family: BrandonPrintedOneWeb, sans-serif;
   color: $color--white;
   font-size: #{20 / $font-size--base__no-unit}em;
@@ -17,7 +17,7 @@
 }
 
 .foot-teaser-image--text {
-  padding: 40px 20px 0;;
+  padding: 35px 18px 0;;
   display: inline-block;
 }
 

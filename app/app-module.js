@@ -23,6 +23,8 @@
       'impressum',
       'lageplan',
       'galerie',
-      'termine'
+      'termine',
+      'archiv',
+      'archiv2016'
     ]);
 }());

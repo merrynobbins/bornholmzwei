@@ -13,6 +13,7 @@
       'mm.foundation',
       'home',
       '0424gartenwerkstatt',
-      '0515pfingstsonntag'
+      '0515pfingstsonntag',
+      '0604fuehrung'
     ]);
 }());

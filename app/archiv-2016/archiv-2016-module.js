@@ -14,6 +14,7 @@
       'home',
       '0424gartenwerkstatt',
       '0515pfingstsonntag',
-      '0604fuehrung'
+      '0604fuehrung',
+      '0618rundgang'
     ]);
 }());

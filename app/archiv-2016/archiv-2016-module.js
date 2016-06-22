@@ -15,6 +15,7 @@
       '0424gartenwerkstatt',
       '0515pfingstsonntag',
       '0604fuehrung',
-      '0618rundgang'
+      '0618rundgang',
+      '0621musique'
     ]);
 }());

@@ -2,7 +2,7 @@
   'use strict';
 
   /* @ngdoc object
-   * @name 0618rundgang
+   * @name 0621musique
    * @description
    *
    */

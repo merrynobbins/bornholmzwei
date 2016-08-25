@@ -16,6 +16,7 @@
       '0515pfingstsonntag',
       '0604fuehrung',
       '0618rundgang',
-      '0621musique'
+      '0621musique',
+      '0709kinderfest'
     ]);
 }());

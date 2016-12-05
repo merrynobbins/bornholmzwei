@@ -2,12 +2,12 @@
   'use strict';
 
   /* @ngdoc object
-   * @name kontakt
+   * @name presse
    * @description
    *
    */
   angular
-    .module('kontakt', [
+    .module('presse', [
       'ui.router'
     ]);
 }());

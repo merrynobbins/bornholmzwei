@@ -19,7 +19,7 @@
       'bienenFuerDasVolk',
       'neuigkeiten',
       'satzung',
-      'presse',
+       // 'presse',
       'impressum',
       'lageplan',
       'galerie',

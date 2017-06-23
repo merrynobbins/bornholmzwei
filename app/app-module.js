@@ -25,6 +25,7 @@
       'galerie',
       'termine',
       'archiv',
-      'archiv2016'
+      'archiv2016',
+      'archiv2017'
     ]);
 }());

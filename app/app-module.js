@@ -30,7 +30,12 @@
       'archiv2017'
     ])
     .config(['AnalyticsProvider', function (AnalyticsProvider) {
-      AnalyticsProvider.setAccount('UA-103012813-1');
+      AnalyticsProvider.setAccount({
+        tracker: 'UA-103012813-1',
+        set: {
+          forceSSL: true
+        }
+      });
       AnalyticsProvider.setPageEvent('$stateChangeSuccess');
       AnalyticsProvider.ignoreFirstPageLoad(true);
     }]).run(['Analytics', function () {

@@ -14,6 +14,7 @@
       'home',
       '0308frauentag',
       '0519deutschrock',
-      '062117musique'
+      '062117musique',
+      '071517kinderfest'
     ]);
 }());

@@ -32,6 +32,7 @@
     .config(['AnalyticsProvider', function (AnalyticsProvider) {
       AnalyticsProvider.setAccount({
         tracker: 'UA-103012813-1',
+        name: 'tracker1',
         set: {
           forceSSL: true
         }

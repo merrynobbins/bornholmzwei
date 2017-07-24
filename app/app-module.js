@@ -11,7 +11,9 @@
       'ui.router',
       'slick',
       'mm.foundation',
+      /*
       'angular-google-analytics',
+      */
       'home',
       'fruechteFuerFluechtlinge',
       'bornholmZweiLaedtEin',
@@ -28,6 +30,7 @@
       'archiv',
       'archiv2016',
       'archiv2017'
+    /*
     ])
     .config(['AnalyticsProvider', function (AnalyticsProvider) {
       AnalyticsProvider.setAccount({
@@ -41,5 +44,7 @@
       AnalyticsProvider.setPageEvent('$stateChangeSuccess');
       AnalyticsProvider.ignoreFirstPageLoad(true);
     }]).run(['Analytics', function () {
-    }]);
+    }
+    */
+    ]);
 }());

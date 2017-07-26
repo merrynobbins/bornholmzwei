@@ -27,7 +27,8 @@
       'termine',
       'archiv',
       'archiv2016',
-      'archiv2017'
+      'archiv2017',
+      'datenschutz'
     ])
     .config(['AnalyticsProvider', function (AnalyticsProvider) {
       AnalyticsProvider.setAccount({

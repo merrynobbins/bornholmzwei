@@ -220,3 +220,47 @@ a {
     width: auto;
   }
 }
+
+.teaserPanel {
+  height: 100vh;
+  width: 100vw;
+
+  .panelContentImage {
+    zoom: 1;
+  }
+
+  .panelBottomImage {
+    zoom: 1;
+  }
+
+  .panelBottom {
+    zoom: 1;
+
+    .goHome {
+      zoom: 1;
+    }
+  }
+
+  .goNext {
+    zoom: 1;
+  }
+
+  .goPrev {
+    zoom: 1;
+  }
+
+  .goAway {
+    zoom: 1;
+  }
+
+  &.teaserPanel__1 { background-color: $color__panel1 }
+  &.teaserPanel__2 { background-color: $color__panel2 }
+  &.teaserPanel__3 { background-color: $color__panel3 }
+  &.teaserPanel__4 { background-color: $color__panel4 }
+  &.teaserPanel__5 { background-color: $color__panel5 }
+  &.teaserPanel__6 { background-color: $color__panel6 }
+  &.teaserPanel__7 { background-color: $color__panel7 }
+  &.teaserPanel__8 { background-color: $color__panel8 }
+  &.teaserPanel__9 { background-color: $color__panel9 }
+  &.teaserPanel__10 { background-color: $color__panel10 }
+}

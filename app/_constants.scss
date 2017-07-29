@@ -8,6 +8,22 @@ $color--black: #000;
 $color--burger: #DDD;
 $color--burger__hover: #BBB;
 
+// panels
+$color--panel__variantA: #72AB74;
+$color--panel__variantB: #688F9C;
+$color--panel__variantC: #F79672;
+$color--panel__variantD: #F2B93E;
+$color--panel1: $color--panel__variantA;
+$color--panel2: $color--panel__variantB;
+$color--panel3: $color--panel__variantC;
+$color--panel4: $color--panel__variantA;
+$color--panel5: $color--panel__variantB;
+$color--panel6: $color--panel__variantC;
+$color--panel7: $color--panel__variantA;
+$color--panel8: $color--panel__variantB;
+$color--panel9: $color--panel__variantC;
+$color--panel10: $color--panel__variantD;
+
 $path--images: '/images/';
 $path--fonts: '/fonts/';
 

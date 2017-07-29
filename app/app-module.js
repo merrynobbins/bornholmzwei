@@ -29,22 +29,37 @@
       'termine',
       'archiv',
       'archiv2016',
-      'archiv2017'
-    /*
-    ])
-    .config(['AnalyticsProvider', function (AnalyticsProvider) {
-      AnalyticsProvider.setAccount({
-        tracker: 'UA-103012813-1',
-        name: 'tracker1',
-        set: {
-          forceSSL: true,
-          anonynizeIp: true
-        }
-      });
-      AnalyticsProvider.setPageEvent('$stateChangeSuccess');
-      AnalyticsProvider.ignoreFirstPageLoad(true);
-    }]).run(['Analytics', function () {
-    }
-    */
+      'archiv2017',
+      'panel1',
+      'panel2',
+      'panel3',
+      'panel4',
+      'panel5',
+      'panel6',
+      'panel7',
+      'panel8',
+      'panel9',
+      'panel10'
     ]);
+    /*
+    .config([
+      'AnalyticsProvider',
+      function (AnalyticsProvider) {
+        AnalyticsProvider.setAccount({
+          tracker: 'UA-103012813-1',
+          name: 'tracker1',
+          set: {
+            forceSSL: true,
+            anonynizeIp: true
+          }
+        });
+
+        AnalyticsProvider.setPageEvent('$stateChangeSuccess');
+        AnalyticsProvider.ignoreFirstPageLoad(true);
+      }
+    ]).run([
+      'Analytics',
+      function () {}
+    ]);
+    */
 }());

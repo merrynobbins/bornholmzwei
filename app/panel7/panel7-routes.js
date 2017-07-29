@@ -8,7 +8,7 @@
   function config($stateProvider) {
     $stateProvider
       .state('panel7', {
-        url: '/panel7',
+        url: '/7',
         templateUrl: 'panel7/views/panel7.tpl.html',
         controller: 'Panel7Ctrl',
         controllerAs: 'panel7'

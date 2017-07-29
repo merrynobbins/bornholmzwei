@@ -12,8 +12,19 @@
     .module('panel5')
     .controller('Panel5Ctrl', Panel5Ctrl);
 
-  function Panel5Ctrl() {
+  function Panel5Ctrl($timeout) {
     var vm = this;
-    vm.ctrlName = 'Panel5Ctrl';
+
+    vm.controlsVisible = false;
+    vm.timeoutPromise = null;
+
+    vm.handleMouseMove = function () {
+      vm.controlsVisible = true;
+      $timeout.cancel(vm.timeoutPromise);
+
+      vm.timeoutPromise = $timeout(function () {
+        vm.controlsVisible = false;
+      }, 2000);
+    };
   }
 }());

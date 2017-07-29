@@ -12,8 +12,19 @@
     .module('panel10')
     .controller('Panel10Ctrl', Panel10Ctrl);
 
-  function Panel10Ctrl() {
+  function Panel10Ctrl($timeout) {
     var vm = this;
-    vm.ctrlName = 'Panel10Ctrl';
+
+    vm.controlsVisible = false;
+    vm.timeoutPromise = null;
+
+    vm.handleMouseMove = function () {
+      vm.controlsVisible = true;
+      $timeout.cancel(vm.timeoutPromise);
+
+      vm.timeoutPromise = $timeout(function () {
+        vm.controlsVisible = false;
+      }, 2000);
+    };
   }
 }());

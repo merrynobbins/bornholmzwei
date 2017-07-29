@@ -1,4 +1,8 @@
-.teaserPanel.teaserPanel__2
+.teaserPanel.teaserPanel__2(
+  ng-controller="Panel2Ctrl as Panel2Vm"
+  ng-mousemove="Panel2Vm.handleMouseMove()"
+  ng-class="{'showControls': Panel2Vm.controlsVisible}"
+)
   img.panelContentImage(src="/images/panels/2.png")
 
   .panelBottom

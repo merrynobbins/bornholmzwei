@@ -256,6 +256,13 @@ a {
     font-weight: 300;
     line-height: 1;
     opacity: 0;
+    transition: opacity 500ms;
+
+    &:hover,
+    &:active,
+    &:focus {
+      opacity: 1;
+    }
   }
 
   .goNext,
@@ -279,6 +286,14 @@ a {
     height: 12.5vh;
   }
 
+  &.showControls {
+    .goNext,
+    .goPrev,
+    .goAway {
+      opacity: 1;
+    }
+  }
+
   &.teaserPanel__1 { background-color: $color__panel1 }
   &.teaserPanel__2 { background-color: $color__panel2 }
   &.teaserPanel__3 { background-color: $color__panel3 }
@@ -289,4 +304,14 @@ a {
   &.teaserPanel__8 { background-color: $color__panel8 }
   &.teaserPanel__9 { background-color: $color__panel9 }
   &.teaserPanel__10 { background-color: $color__panel10 }
+}
+
+@media screen and (max-width: $breakpoint--medium__max) {
+  .teaserPanel {
+    .goNext,
+    .goPrev,
+    .goAway {
+      opacity: 1 !important;
+    }
+  }
 }

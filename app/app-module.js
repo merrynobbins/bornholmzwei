@@ -28,7 +28,7 @@
       'archiv',
       'archiv2016',
       'archiv2017',
-<<<<<<< HEAD
+      'datenschutz',
       'panel1',
       'panel2',
       'panel3',
@@ -39,30 +39,6 @@
       'panel8',
       'panel9',
       'panel10'
-    ]);
-    /*
-    .config([
-      'AnalyticsProvider',
-      function (AnalyticsProvider) {
-        AnalyticsProvider.setAccount({
-          tracker: 'UA-103012813-1',
-          name: 'tracker1',
-          set: {
-            forceSSL: true,
-            anonynizeIp: true
-          }
-        });
-
-        AnalyticsProvider.setPageEvent('$stateChangeSuccess');
-        AnalyticsProvider.ignoreFirstPageLoad(true);
-      }
-    ]).run([
-      'Analytics',
-      function () {}
-    ]);
-    */
-=======
-      'datenschutz'
     ])
     .config(['AnalyticsProvider', function (AnalyticsProvider) {
       AnalyticsProvider.setAccount({
@@ -77,5 +53,4 @@
       AnalyticsProvider.ignoreFirstPageLoad(true);
     }]).run(['Analytics', function () {
     }]);
->>>>>>> 806964b8dd6e10ae2f4187a7d2ebcce2d7951848
 }());

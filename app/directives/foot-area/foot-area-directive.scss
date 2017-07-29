@@ -15,7 +15,7 @@
 
   .navigation {
     font-weight: 700;
-    font-size: #{18 / $font-size--base__no-unit}em;
+    font-size: #{15 / $font-size--base__no-unit}em;
   }
 }
 
@@ -25,10 +25,10 @@
 
   .foot-teaser-image {
     position: fixed;
-    bottom: 30px;
+    bottom: 15px;
     top: auto;
     left: auto;
-    margin-left: -40px;
+    margin-left: -85px;
     z-index: 1;
   }
 

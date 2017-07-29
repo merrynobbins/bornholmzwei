@@ -11,9 +11,7 @@
       'ui.router',
       'slick',
       'mm.foundation',
-      /*
       'angular-google-analytics',
-      */
       'home',
       'fruechteFuerFluechtlinge',
       'bornholmZweiLaedtEin',
@@ -30,6 +28,7 @@
       'archiv',
       'archiv2016',
       'archiv2017',
+<<<<<<< HEAD
       'panel1',
       'panel2',
       'panel3',
@@ -62,4 +61,21 @@
       function () {}
     ]);
     */
+=======
+      'datenschutz'
+    ])
+    .config(['AnalyticsProvider', function (AnalyticsProvider) {
+      AnalyticsProvider.setAccount({
+        tracker: 'UA-103012813-1',
+        name: 'tracker1',
+        set: {
+          forceSSL: true,
+          anonynizeIp: true
+        }
+      });
+      AnalyticsProvider.setPageEvent('$stateChangeSuccess');
+      AnalyticsProvider.ignoreFirstPageLoad(true);
+    }]).run(['Analytics', function () {
+    }]);
+>>>>>>> 806964b8dd6e10ae2f4187a7d2ebcce2d7951848
 }());

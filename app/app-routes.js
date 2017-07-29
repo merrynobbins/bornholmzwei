@@ -6,6 +6,6 @@
     .config(config);
 
   function config($urlRouterProvider) {
-    $urlRouterProvider.otherwise('/panel1');
+    $urlRouterProvider.otherwise('/home');
   }
 }());

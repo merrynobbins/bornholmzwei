@@ -224,33 +224,58 @@ a {
 .teaserPanel {
   height: 100vh;
   width: 100vw;
+  display: flex;
+  position: relative;
 
   .panelContentImage {
-    zoom: 1;
-  }
-
-  .panelBottomImage {
-    zoom: 1;
+    position: absolute;
+    width: 100%;
+    top: 25vh;
   }
 
   .panelBottom {
-    zoom: 1;
+    position: absolute;
+    bottom: 10vh;
 
     .goHome {
-      zoom: 1;
+      display: inline-block;
+      padding: 25px 0;
     }
   }
 
+  .goNext,
+  .goPrev,
+  .goAway {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $color--white;
+    font-family: 'Oxygen', sans-serif;
+    font-size: #{46 / $font-size--base__no-unit}em;
+    font-weight: 300;
+    line-height: 1;
+  }
+
+  .goNext,
+  .goPrev {
+    height: 100%;
+    width: 12.5vw;
+  }
+
   .goNext {
-    zoom: 1;
+    right: 0;
   }
 
   .goPrev {
-    zoom: 1;
+    left: 0;
   }
 
   .goAway {
-    zoom: 1;
+    right: 0;
+    top: 0;
+    width: 12.5vw;
+    height: 12.5vh;
   }
 
   &.teaserPanel__1 { background-color: $color__panel1 }

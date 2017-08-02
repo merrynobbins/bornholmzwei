@@ -315,3 +315,18 @@ a {
     }
   }
 }
+
+@media screen and (max-width: $breakpoint--medium__max) and (orientation: "portrait") {
+  .teaserPanel {
+    .panelContentImage {
+      top: 26vh;
+    }
+
+    .panelBottom {
+      bottom: auto;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+    }
+  }
+}

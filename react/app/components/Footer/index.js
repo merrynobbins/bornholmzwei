@@ -11,18 +11,21 @@ import { Grid, Row, Col } from 'react-bootstrap';
 import CTA from 'components/Cta';
 import { FooterWrapper, ListWrapper, ListItem, ListSeparator } from './styles';
 
+const StyledGrid = styled(Grid)`
+  padding: 0;
+`;
+
 const StyledLink = styled(Link)`
   color: inherit !important;
 `;
 
 const Footer = () => (
   <FooterWrapper>
-    <Grid>
+    <StyledGrid>
       <Row>
-        <Col sm={1}>
-          <CTA />
-        </Col>
+        <Col sm={1} />
         <Col sm={10}>
+          <CTA />
           <ListWrapper>
             <ListItem><StyledLink to="/neuigkeiten">Neuigkeiten</StyledLink></ListItem>
             <ListItem><ListSeparator /><StyledLink to="/archiv">Archiv</StyledLink></ListItem>
@@ -37,7 +40,7 @@ const Footer = () => (
         </Col>
         <Col sm={1} />
       </Row>
-    </Grid>
+    </StyledGrid>
   </FooterWrapper>
 );
 

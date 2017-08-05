@@ -19,8 +19,11 @@ import Header from 'components/Header';
 import Footer from 'components/Footer';
 
 const
+  AppGrid = styled(Grid)`
+    padding: 0;
+  `,
   // eslint-disable-next-line react/prop-types
-  Column = ({ className, children }) => <Col sm={12} className={className}>{children}</Col>,
+  Column = ({ className, children }) => <Col sm={10} className={className}>{children}</Col>,
   AppColumn = styled(Column)`
     background-color: ${color.white};
     min-height: 100vh;
@@ -33,14 +36,16 @@ export default class App extends React.PureComponent { // eslint-disable-line re
   };
 
   render = () => (
-    <Grid>
+    <AppGrid>
       <Row>
+        <Col sm={1} />
         <AppColumn>
           <Header />
           {React.Children.toArray(this.props.children)}
           <Footer />
         </AppColumn>
+        <Col sm={1} />
       </Row>
-    </Grid>
+    </AppGrid>
   );
 }

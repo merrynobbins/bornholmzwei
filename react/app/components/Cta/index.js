@@ -13,7 +13,8 @@ import IMAGE_STAR from 'assets/images/star.png';
 const
   Wrapper = styled.div`
     position: absolute;
-    bottom: 0;
+    bottom: 15px;
+    z-index: 1;
     width: 120px;
     height: 120px;
     transform: rotate(-14deg);

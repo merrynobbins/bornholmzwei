@@ -14,10 +14,13 @@ const ListWrapper = styled.ul`
   list-style-type: none;
   text-align: center;
   position: relative;
-  bottom: 20px;
+  bottom: 0;
   font-size: ${typography.fontSize.navigation};
   font-weight: ${typography.fontWeight.bold};
   color: ${color.copytext.default};
+  height: 50px;
+  line-height: 50px;
+  background-color: ${color.white};
 `;
 
 const ListItem = styled.li`
@@ -29,7 +32,7 @@ const ListSeparator = styled.span`
 
   &::before {
     content: "/";
-    margin: 0 5px;
+    margin: 0 4px 0 5px;
   }
 `;
 

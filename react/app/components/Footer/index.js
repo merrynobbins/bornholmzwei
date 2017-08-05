@@ -5,29 +5,41 @@
 */
 
 import React from 'react';
+import styled from 'styled-components';
 import { Link } from 'react-router';
+import { Grid, Row, Col } from 'react-bootstrap';
 import CTA from 'components/Cta';
-// import styled from 'styled-components';
+import { FooterWrapper, ListWrapper, ListItem, ListSeparator } from './styles';
 
-function Footer() {
-  return (
-    <div>
-      <CTA />
+const StyledLink = styled(Link)`
+  color: inherit !important;
+`;
 
-      <ul>
-        <li><Link to="/neuigkeiten">Neuigkeiten</Link></li>
-        <li><Link to="/archiv">Archiv</Link></li>
-        <li><Link to="/galerie">Galerie</Link></li>
-        <li><Link to="/termine">Termine</Link></li>
-        <li><Link to="/presse">Presse</Link></li>
-        <li><Link to="/lageplan">Lageplan</Link></li>
-        <li><Link to="/satzung">Satzung</Link></li>
-        <li><Link to="/impressum">Impressum</Link></li>
-        <li><Link to="/datenschutzerklaerung">Datenschutzerklärung</Link></li>
-      </ul>
-    </div>
-  );
-}
+const Footer = () => (
+  <FooterWrapper>
+    <Grid>
+      <Row>
+        <Col sm={1}>
+          <CTA />
+        </Col>
+        <Col sm={10}>
+          <ListWrapper>
+            <ListItem><StyledLink to="/neuigkeiten">Neuigkeiten</StyledLink></ListItem>
+            <ListItem><ListSeparator /><StyledLink to="/archiv">Archiv</StyledLink></ListItem>
+            <ListItem><ListSeparator /><StyledLink to="/galerie">Galerie</StyledLink></ListItem>
+            <ListItem><ListSeparator /><StyledLink to="/termine">Termine</StyledLink></ListItem>
+            <ListItem><ListSeparator /><StyledLink to="/presse">Presse</StyledLink></ListItem>
+            <ListItem><ListSeparator /><StyledLink to="/lageplan">Lageplan</StyledLink></ListItem>
+            <ListItem><ListSeparator /><StyledLink to="/satzung">Satzung</StyledLink></ListItem>
+            <ListItem><ListSeparator /><StyledLink to="/impressum">Impressum</StyledLink></ListItem>
+            <ListItem><ListSeparator /><StyledLink to="/datenschutzerklaerung">Datenschutzerklärung</StyledLink></ListItem>
+          </ListWrapper>
+        </Col>
+        <Col sm={1} />
+      </Row>
+    </Grid>
+  </FooterWrapper>
+);
 
 Footer.propTypes = {
 

@@ -12,8 +12,19 @@
  */
 
 import React from 'react';
+import styled from 'styled-components';
+import { color } from 'constants/styles';
+import { Grid, Row, Col } from 'react-bootstrap';
 import Header from 'components/Header';
 import Footer from 'components/Footer';
+
+const
+  // eslint-disable-next-line react/prop-types
+  Column = ({ className, children }) => <Col sm={12} className={className}>{children}</Col>,
+  AppColumn = styled(Column)`
+    background-color: ${color.white};
+    min-height: 100vh;
+  `;
 
 export default class App extends React.PureComponent { // eslint-disable-line react/prefer-stateless-function
 
@@ -21,13 +32,15 @@ export default class App extends React.PureComponent { // eslint-disable-line re
     children: React.PropTypes.node,
   };
 
-  render() {
-    return (
-      <div>
-        <Header />
-        {React.Children.toArray(this.props.children)}
-        <Footer />
-      </div>
-    );
-  }
+  render = () => (
+    <Grid>
+      <Row>
+        <AppColumn>
+          <Header />
+          {React.Children.toArray(this.props.children)}
+          <Footer />
+        </AppColumn>
+      </Row>
+    </Grid>
+  );
 }

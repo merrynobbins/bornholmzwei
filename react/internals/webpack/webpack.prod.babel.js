@@ -2,6 +2,8 @@
 const path = require('path');
 const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const HtmlWebpackIncludeAssetsPlugin = require('html-webpack-include-assets-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 const OfflinePlugin = require('offline-plugin');
 
 module.exports = require('./webpack.base.babel')({
@@ -24,6 +26,10 @@ module.exports = require('./webpack.base.babel')({
       async: true,
     }),
 
+    new CopyWebpackPlugin([
+      { from: 'node_modules/bootstrap/dist/css', to: 'css/' },
+    ]),
+
     // Minify and optimize the index.html
     new HtmlWebpackPlugin({
       template: 'app/index.html',
@@ -40,6 +46,11 @@ module.exports = require('./webpack.base.babel')({
         minifyURLs: true,
       },
       inject: true,
+    }),
+
+    new HtmlWebpackIncludeAssetsPlugin({
+      assets: ['css/bootstrap.min.css'],
+      append: false,
     }),
 
     // Put it in the end to capture all the HtmlWebpackPlugin's

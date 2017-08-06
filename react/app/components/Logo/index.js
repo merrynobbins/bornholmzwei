@@ -5,15 +5,21 @@
 */
 
 import React from 'react';
-// import styled from 'styled-components';
+import { Link } from 'react-router';
+import IMAGE_LOGO from 'assets/images/header.png';
+import styled from 'styled-components';
 
+const Wrapper = styled.div`
+  zoom: 1;
+`;
 
-function Logo() {
-  return (
-    <div>
-    </div>
-  );
-}
+const Logo = () => (
+  <Wrapper>
+    <Link to="/">
+      <img src={IMAGE_LOGO} alt="zur Startseite" />
+    </Link>
+  </Wrapper>
+);
 
 Logo.propTypes = {
 

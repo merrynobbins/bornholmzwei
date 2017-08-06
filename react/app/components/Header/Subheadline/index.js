@@ -1,6 +1,6 @@
 /**
 *
-* Headline
+* Subheadline
 *
 */
 
@@ -8,16 +8,16 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
-const Content = styled.h1`
+const Content = styled.h2`
   zoom: 1;
 `;
 
-const Headline = ({ children }) => (
+const Subheadline = ({ children }) => (
   <Content>{children}</Content>
 );
 
-Headline.propTypes = {
+Subheadline.propTypes = {
   children: PropTypes.any.isRequired,
 };
 
-export default Headline;
+export default Subheadline;

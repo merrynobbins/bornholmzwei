@@ -15,7 +15,7 @@ const ListWrapper = styled.ul`
   text-align: center;
   position: relative;
   bottom: 0;
-  font-size: ${typography.fontSize.navigation};
+  font-size: ${typography.fontSize.smaller};
   font-weight: ${typography.fontWeight.bold};
   color: ${color.copytext.default};
   height: 50px;

@@ -10,11 +10,11 @@ export default {
     default: '#808080',
     hover: '#3C3D3C',
   },
-  white: '#FFF',
-  black: '#000',
+  white: '#FFFFFF',
+  black: '#000000',
   burger: {
-    default: '#DDD',
-    hover: '#BBB',
+    default: '#DDDDDD',
+    hover: '#BBBBBB',
   },
   panel: {
     a: '#72AB74',

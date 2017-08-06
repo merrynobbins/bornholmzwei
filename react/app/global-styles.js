@@ -1,5 +1,5 @@
 import { injectGlobal } from 'styled-components';
-import { color } from 'constants/styles';
+import { color, typography } from 'constants/styles';
 
 import FONT_BRANDON_EOT from 'assets/fonts/Brandon_Printed_OneWeb.eot';
 import FONT_BRANDON_WOFF from 'assets/fonts/Brandon_Printed_OneWeb.woff';
@@ -24,9 +24,14 @@ injectGlobal`
 
   body {
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    font-weight: 500;
+    font-weight: ${typography.fontWeight.normal};
+    font-size: ${typography.fontSize.normal};
     color: ${color.copytext.default};
     background: url(${IMAGE_BACKGROUND}) fixed no-repeat 0 0 transparent;
     background-size: cover;
+  }
+
+  .container {
+    max-width: 100%;
   }
 `;

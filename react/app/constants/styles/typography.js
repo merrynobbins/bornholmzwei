@@ -1,8 +1,10 @@
 export default {
   fontSize: {
-    navigation: '15px',
+    smaller: '15px',
+    normal: '16px',
   },
   fontWeight: {
+    normal: 500,
     bold: 700,
   },
 };

@@ -269,20 +269,6 @@ a {
     }
   }
 
-  // small devices
-@media screen and (max-width: $breakpoint--small__max) {
-  .goAway {
-    font-size: #{12 / $font-size--base__no-unit}em; 
-  }
-}
-
-// medium devices
-@media screen and (min-width: $breakpoint--medium__min) and (max-width: $breakpoint--medium__max) {
-  .goAway {
-    font-size: #{12 / $font-size--base__no-unit}em; 
-  }
-}
-
   .goNext,
   .goPrev {
     height: 100%;
@@ -298,10 +284,22 @@ a {
   }
 
   .goAway {
-    right: 0;
-    top: 0;
-    width: 12.5vw;
+    width: 100vw;
     height: 12.5vh;
+
+    a {
+      color: $color--white;
+    }
+
+    // small devices
+    @media screen and (max-width: $breakpoint--small__max) {
+      font-size: #{12 / $font-size--base__no-unit}em;
+    }
+
+    // medium devices
+    @media screen and (min-width: $breakpoint--medium__min) and (max-width: $breakpoint--medium__max) {
+      font-size: #{24 / $font-size--base__no-unit}em;
+    }
   }
 
   &.showControls {

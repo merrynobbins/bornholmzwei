@@ -269,6 +269,13 @@ a {
     }
   }
 
+  // small devices
+@media screen and (max-width: $breakpoint--small__max) {
+  .goAway {
+    font-size: #{22 / $font-size--base__no-unit}em; 
+  }
+}
+
   .goNext,
   .goPrev {
     height: 100%;

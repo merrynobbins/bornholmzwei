@@ -8,8 +8,8 @@
   function config($stateProvider) {
     $stateProvider
       .state('fruechteFuerFluechtlinge', {
-        url: '/fruechte-fuer-fluechtlinge',
-        templateUrl: 'fruechte-fuer-fluechtlinge/views/fruechte-fuer-fluechtlinge.tpl.html',
+        url: '/archiv-2016/fruechte-fuer-fluechtlinge',
+        templateUrl: 'archiv-2016/fruechte-fuer-fluechtlinge/views/fruechte-fuer-fluechtlinge.tpl.html',
         controller: 'FruechteFuerFluechtlingeCtrl',
         controllerAs: 'fruechteFuerFluechtlinge'
       });

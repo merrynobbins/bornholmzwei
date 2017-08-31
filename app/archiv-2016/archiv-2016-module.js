@@ -18,6 +18,7 @@
       '0604fuehrung',
       '0618rundgang',
       '0621musique',
-      '0709kinderfest'
+      '0709kinderfest',
+      'fruechteFuerFluechtlinge'
     ]);
 }());

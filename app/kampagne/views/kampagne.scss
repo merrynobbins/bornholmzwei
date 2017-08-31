@@ -1,0 +1,38 @@
+@import "../../constants";
+
+.image-text-blocks {
+  > .row ~ .row {
+    margin-top: 50px;
+  }
+}
+
+.image-text-blocks--title {
+  border-top: 1px solid $color--ci;
+  border-bottom: 1px solid $color--ci;
+  color: $color--ci;
+  padding: 5px 0;
+  margin-bottom: 15px;
+}
+
+.image-text-blocks--title__right {
+  text-align: right;
+}
+
+// small devices
+@media screen and (max-width: $breakpoint--small__max) {
+  .module--unsere-natur {
+    .row ~ .row {
+      > .columns {
+        .block-header {
+          text-align: center;
+        }
+      }
+    }
+
+    img {
+      margin-top: 10px;
+      width: 100%;
+      height: auto;
+    }
+  }
+}

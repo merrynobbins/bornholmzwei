@@ -13,7 +13,7 @@
       'mm.foundation',
       'angular-google-analytics',
       'home',
-      'fruechteFuerFluechtlinge',
+      'kampagne',
       'bornholmZweiLaedtEin',
       'unsereNatur',
       'geschichteUndGeschichten',

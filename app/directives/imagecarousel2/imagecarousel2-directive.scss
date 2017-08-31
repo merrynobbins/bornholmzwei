@@ -1,0 +1,20 @@
+@import "../../constants";
+
+.imagecarousel2 {
+  .slick-dots li button {
+    position: relative;
+
+    &:before {
+      content: '';
+      width: 6px;
+      height: 6px;
+      background-color: $color--copytext;
+      border-radius: 50%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      margin-top: -3px;
+      margin-left: -3px;
+    }
+  }
+}

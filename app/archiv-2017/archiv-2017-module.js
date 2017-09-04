@@ -15,6 +15,7 @@
       '0308frauentag',
       '0519deutschrock',
       '062117musique',
-      '071517kinderfest'
+      '071517kinderfest',
+      '0902erntedank'
     ]);
 }());

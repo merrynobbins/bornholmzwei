@@ -6,6 +6,6 @@
     .config(config);
 
   function config($urlRouterProvider) {
-    $urlRouterProvider.otherwise('/1');
+    $urlRouterProvider.otherwise('/home');
   }
 }());

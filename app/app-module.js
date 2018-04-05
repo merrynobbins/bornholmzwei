@@ -28,6 +28,7 @@
       'archiv',
       'archiv2016',
       'archiv2017',
+      'archiv2018',
       'datenschutz',
       'panel1',
       'panel2',

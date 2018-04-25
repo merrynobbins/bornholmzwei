@@ -16,6 +16,7 @@
       '0519deutschrock',
       '062117musique',
       '071517kinderfest',
-      '0902erntedank'
+      '0902erntedank',
+      '0908essbar'
     ]);
 }());

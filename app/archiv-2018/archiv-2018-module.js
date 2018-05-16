@@ -12,6 +12,7 @@
       'slick',
       'mm.foundation',
       'home',
-      '0224obstbaum'
+      '0224obstbaum',
+      '0430walpurgis'
     ]);
 }());

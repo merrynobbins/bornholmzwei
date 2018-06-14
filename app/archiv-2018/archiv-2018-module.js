@@ -13,6 +13,7 @@
       'mm.foundation',
       'home',
       '0224obstbaum',
-      '0430walpurgis'
+      '0430walpurgis',
+      '0502pfingsten'
     ]);
 }());

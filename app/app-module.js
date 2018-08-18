@@ -20,6 +20,7 @@
       'bienenFuerDasVolk',
       'neuigkeiten',
       'satzung',
+      'bewerbung',
       'presse',
       'impressum',
       'lageplan',

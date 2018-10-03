@@ -17,6 +17,7 @@
       '0502pfingsten',
       '0616stadtnatur',
       '0621fetedlm',
-      '0630kinderfest18'
+      '0630kinderfest18',
+      '0909erntedank'
     ]);
 }());

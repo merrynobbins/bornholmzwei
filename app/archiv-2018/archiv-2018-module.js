@@ -18,6 +18,7 @@
       '0616stadtnatur',
       '0621fetedlm',
       '0630kinderfest18',
-      '0909erntedank'
+      '0909erntedank',
+      '1006schlacht'
     ]);
 }());

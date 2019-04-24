@@ -6,5 +6,8 @@
    * @description
    *
    */
-  angular.module('archiv2019', ['030819frauentag']);
-})();
+  angular
+    .module('archiv2019', [
+      '030819frauentag'
+    ]);
+}());

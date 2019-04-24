@@ -1,4 +1,4 @@
-(function() {
+(function () {
   'use strict';
 
   /* @ngdoc object
@@ -6,5 +6,8 @@
    * @description
    *
    */
-  angular.module('030819frauentag', ['ui.router']);
-})();
+  angular
+    .module('030819frauentag', [
+      'ui.router'
+    ]);
+}());

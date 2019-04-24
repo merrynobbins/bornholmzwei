@@ -30,6 +30,7 @@
       'archiv2016',
       'archiv2017',
       'archiv2018',
+      'archiv2019',
       'datenschutz',
       'panel1',
       'panel2',

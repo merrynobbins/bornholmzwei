@@ -2,9 +2,9 @@
   'use strict';
 
   /* @ngdoc object
-   * @name impressum
+   * @name 030819frauentag
    * @description
    *
    */
-  angular.module('archiv2019', ['030819frauentag']);
+  angular.module('030819frauentag', ['ui.router']);
 })();
